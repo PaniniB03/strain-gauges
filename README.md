@@ -1,7 +1,7 @@
 # Strain Gauges
 
 ## Overview
-This project aims to use strain gauge sensors to measure the mechanical strain. It can be applied to the surface of dog bone test samples, or shank modules for AFO research, where the strain is measured parallel to the sensor. By using a Wheatstone bridge circuit with sensors and/or resistors, an HX711 Load cell amplifier, and a Wemos D1 R2, readings from the sensors can be converted to strain measurements. 
+This project aims to use strain gauge sensors to measure mechanical strain. It can be applied to the surface of dog bone test samples, or shank modules for AFO research, where the strain is measured parallel to the sensor. By using a Wheatstone bridge circuit with sensors and/or resistors, an HX711 Load cell amplifier, and a Wemos D1 R2, readings from the sensors can be converted to strain measurements. 
 
 ## Hardware
 - Microcontroller: Wemos D1 R2
@@ -29,23 +29,27 @@ This project aims to use strain gauge sensors to measure the mechanical strain. 
 
 ### Theoretical Quarter Bridge:
 - **Vin:** 9.98V
-- **Vout:** -0.4536V
 - **Resistor Values:**
   - R1: 120Ω
   - R2: 100Ω
   - R3: 120Ω
   - R4: 120Ω
+- **Vout:** -0.4536V
  
 ### Two Gauges (Active + Dummy) - True Resistance Values:
 - **Vin:** 10V
-- **Vout:** 0.0166V
 - **Resistor Values:**
   - R1: 120.2Ω
   - R2: 120.6Ω
   - R3: 120.5Ω
   - R4: 120.1Ω
+- **Vout:** 0.0166V
 
 For further theoretical insights, refer to [this NASA tutorial](https://www.grc.nasa.gov/www/k-12/airplane/tunwheat.html).
+
+## Code
+
+Refer to straingaugedaq2.ino for the updated code.
 
 
 
