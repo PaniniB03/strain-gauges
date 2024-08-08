@@ -49,7 +49,7 @@ For further theoretical insights, refer to [this NASA tutorial](https://www.grc.
 
 ## Code
 
-Refer to straingaugedaq2.ino for the updated code.
+Refer to straingauge_daq2.ino for most updated code.
 
 
 
